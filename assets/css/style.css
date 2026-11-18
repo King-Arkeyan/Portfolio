@@ -102,6 +102,27 @@ h3{
   }
 }
 
+.img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  img{
+    height: 100%d;
+  }
+}
+
+.boxbox{
+  background-color: var(--purple-2);
+  padding: 28px;
+  border: solid 1px var(--purple);
+  border-radius: 15px;
+
+  h3{
+    margin-bottom: 12px;
+  }
+}
+
 .menu{
   position: fixed;
   width: 30%;
@@ -184,7 +205,7 @@ main{
     padding: 96px 0;
   }
 
-  .hero{
+  #accueil{
     padding-top: 180px;
   }
 }
@@ -194,7 +215,7 @@ main{
 
 /* SECTION HERO */
 
-.hero{
+#accueil{
   h1{
     line-height: 60px;
   }
@@ -210,40 +231,17 @@ main{
   .col-8 > *:last-child{
     margin-bottom: 0;
   }
-
-  .col-4{
-    .img-container{
-      height: 100%;
-      display: flex;
-      justify-content: center;
-
-      img{
-        height: 100%d;
-      }
-    }
-  }
 }
 
 
 /* SECTION VALEURS */
 
-.valeurs{
+#valeurs{
   background-color: var(--black-purple);
 
   .col-12{
     p{
       margin-bottom: 16px;
-    }
-  }
-
-  .col-4{
-    background-color: var(--purple-2);
-    padding: 28px;
-    border: solid 1px var(--purple);
-    border-radius: 15px;
-
-    h3{
-      margin-bottom: 12px;
     }
   }
 
@@ -259,26 +257,9 @@ main{
 
 /* SECTION PROJETS */
 
-.projets{
+#projets{
   p{
     margin-bottom: 16px;
-  }
-
-  .col-6{
-    background-color: var(--purple-2);
-    padding: 28px;
-    border: solid 1px var(--purple);
-    border-radius: 15px;
-
-    .img-container{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-
-      img{
-        height: 100%d;
-      }
-    }
   }
 
   .col-6>*{
@@ -293,7 +274,7 @@ main{
 
 /* SECTION CONTACT */
 
-.contact{
+#contact{
   background-color: var(--purple);
 
   .col-6{
@@ -330,6 +311,7 @@ main{
 
 footer{
   padding: 32px 0;
+  border-top: solid 2px var(--purple);
 
   .container{
     display: flex;

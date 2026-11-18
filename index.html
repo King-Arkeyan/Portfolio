@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Yohann Delattre</title>
     <link rel="stylesheet" href="./assets/fonts/Inter/stylesheet.css">
     <link rel="stylesheet" href="./assets/fonts/SpaceGrotesk/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,10 +13,10 @@
         <div class="container">
             <p>Yohann DELATTRE</p>
             <nav>
-                <a href="">Accueil</a>
-                <a href="">Projets</a>
-                <a href="">À propos</a>
-                <a href="" class="btn dark">Contact</a>
+                <a href="#accueil">Accueil</a>
+                <a href="#valeurs">Valeurs</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact" class="btn dark">Contact</a>
             </nav>
             <p class="hbg">
                 <span></span>
@@ -26,13 +26,13 @@
         </div>
     </header>
     <div class="menu">
-        <a href="">Accueil</a>
-        <a href="">Projets</a>
-        <a href="">À propos</a>
-        <a href="">Contact</a>
+        <a href="#accueil">Accueil</a>
+        <a href="#valeurs">Valeurs</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
     </div>
     <main>
-        <section class="hero">
+        <section id="accueil">
             <div class="container">
                 <div class="row">
                     <div class="col-8 col-sm-12">
@@ -46,8 +46,8 @@
                             Étudiant en développement front-end, je conçois des interfaces en HTML, CSS et JavaScript, et je cherche une équipe soudée où progresser et voir mon travail utilisé.
                         </p>
                         <div class="grp">
-                            <a href="" class="btn dark">Voir mes projets</a>
-                            <a href="" class="btn dark">Me contacter</a>
+                            <a href="#projets" class="btn dark">Voir mes projets</a>
+                            <a href="#contact" class="btn dark">Me contacter</a>
                         </div>
                     </div>
                     <div class="col-4 col-sm-12">
@@ -58,22 +58,22 @@
                 </div>
             </div>
         </section>
-        <section class="valeurs">
+        <section id="valeurs">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <p>Mes valeurs</p>
                         <h2>Ce qui guide ma façon de travailler</h2>
                     </div>
-                    <div class="col-4 col-sm-12">
+                    <div class="col-4 col-sm-12 boxbox">
                         <h3>Apprendre et consolider</h3>
                         <p>J'aime la sensation de maîtriser une compétence au fil de mes travaux.</p>
                     </div>
-                    <div class="col-4 col-sm-12">
+                    <div class="col-4 col-sm-12 boxbox">
                         <h3>Reconnaissance du travail</h3>
                         <p>Un retour, même verbal, donne du sens à ce que je construis pour les autres.</p>
                     </div>
-                    <div class="col-4 col-sm-12">
+                    <div class="col-4 col-sm-12 boxbox">
                         <h3>Respect</h3>
                         <p>Tolérant au quotidien, j'attends en retour d'être considéré à ma juste valeur.</p>
                     </div>
@@ -88,14 +88,14 @@
                 </div>
             </div>
         </section>
-        <section class="projets">
+        <section id="projets">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <p>Projets</p>
                         <h2>Mes réalisations web</h2>
                     </div>
-                    <div class="col-6 col-sm-12">
+                    <div class="col-6 col-sm-12 boxbox">
                         <div class="img-container">
                             <img src="./assets/img/head.png" alt="">
                         </div>
@@ -103,11 +103,11 @@
                         <h3>Wiki (non-off) pour le jeu "Asgard's Fall"</h3>
                         <p>Un site pour structurer l'information, progresser en autonomie et consolider mes compétences front-end.</p>
                         <div class="grp">
-                            <a href="" class="btn dark">Voir le projet</a>
+                            <a href="./projet_perso_asgards_fall.html" class="btn dark">Voir le projet</a>
                             <a href="" class="btn dark">Projets perso</a>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-12">
+                    <div class="col-6 col-sm-12 boxbox">
                         <div class="img-container">
                             <img src="./assets/img/head.png" alt="">
                         </div>
@@ -115,14 +115,14 @@
                         <h3>Site web pour un artisant (Ovilux)</h3>
                         <p>Un projet qui m'a appris l'adaptabilité grâce aux critiques de mon mentor.</p>
                         <div class="grp">
-                            <a href="" class="btn dark">Voir le projet</a>
+                            <a href="./projet_pro_ovilux.html" class="btn dark">Voir le projet</a>
                             <a href="" class="btn dark">Projets pro</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
