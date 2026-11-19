@@ -1,0 +1,4 @@
+Mettre le CV dans le contact et footer
+Mettre un lien vers le GitHub
+Modifier la partie projets
+Développer la partie projets pour chaque projet

@@ -1,0 +1,32 @@
+/* SECTIONS *********************************************************/
+
+/* SECTION PRESENTATION */
+
+#presentation{
+    padding-top: 180px;
+
+    .btn{
+        display: block;
+        width: fit-content;
+    }
+
+    .pres>*{
+        margin-bottom: 15px;
+    }
+
+    .pres>*:last-child{
+        margin-bottom: 0;
+    }
+
+    .img-container{
+        height: 100%;
+        .contain{
+            width: 80%;
+        }
+    }
+
+    .block{
+        border-top: solid 2px var(--purple);
+        padding-top: 68px;
+    }
+}

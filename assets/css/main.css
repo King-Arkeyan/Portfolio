@@ -1,0 +1,92 @@
+/* SECTIONS *********************************************************/
+
+/* SECTION HERO */
+
+#accueil{
+  padding-top: 180px;
+
+  h1{
+    line-height: 60px;
+  }
+
+  .desc{
+    font-size: 19px;
+  }
+
+  .col-8 > *{
+    margin-bottom: 24px;
+  }
+
+  .col-8 > *:last-child{
+    margin-bottom: 0;
+  }
+}
+
+
+/* SECTION VALEURS */
+
+#valeurs{
+  background-color: var(--black-purple);
+
+  .col-12{
+    p{
+      margin-bottom: 16px;
+    }
+  }
+
+  .tag-holder > *{
+    margin-right: 12px;
+  }
+
+  .tag-holder > *:last-child{
+    margin-right: 0x;
+  }
+}
+
+
+/* SECTION PROJETS */
+
+#projets{
+  p{
+    margin-bottom: 16px;
+  }
+
+  .col-6>*{
+    margin-bottom: 12px;
+  }
+
+  .col-6>*:last-child{
+    margin-bottom: 0;
+  }
+}
+
+
+/* SECTION CONTACT */
+
+#contact{
+  background-color: var(--purple);
+
+  .col-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+      display: block;
+      width: fit-content;
+    }
+
+    a, p{
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    nav>*{
+      margin-bottom: 10px;
+    }
+
+    nav>*:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
